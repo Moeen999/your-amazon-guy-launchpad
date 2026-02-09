@@ -27,7 +27,7 @@ const faqs = [
     a: "Our customer service representatives answer queries and concerns within 24 hours. We also set up automatic responses to ensure every incoming message receives a timely reply. Reach us Monday to Friday, 9:00 AM to 5:00 PM EST.",
   },
   {
-    q: "How do I get started with Your Amazon Guy?",
+    q: "How do I get started with My Amazon Partners?",
     a: "Ready to boost your sales with the Amazon experts? Reach out through our online contact form or contact us during business hours. You can also get a FREE listing audit where we check your listing and give suggestions for improvements.",
   },
   {

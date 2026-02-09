@@ -22,7 +22,7 @@ const AboutPage = () => (
               Your Amazon Growth Partner
             </h1>
             <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
-              youramazonguy is a team of Amazon marketplace experts, data analysts, and growth strategists dedicated to helping brands succeed on the world's largest marketplace.
+              My Amazon Partners is a team of Amazon marketplace experts, data analysts, and growth strategists dedicated to helping brands succeed on the world's largest marketplace.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               With years of combined experience managing accounts across every major category, we bring deep expertise and proven frameworks to every client engagement. From startups launching their first product to established brands scaling to eight figures.

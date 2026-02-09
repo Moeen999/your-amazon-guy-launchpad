@@ -47,7 +47,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <span className="text-sm text-muted-foreground">Email: </span>
-                    <span className="font-semibold text-foreground">sales@youramazonguy.com</span>
+                    <span className="font-semibold text-foreground">sales@myamazonpartners.com</span>
                   </div>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const ContactPage = () => {
                       <div className="font-semibold text-foreground text-sm flex items-center gap-1.5">
                         <Briefcase className="h-3.5 w-3.5" /> Careers
                       </div>
-                      <div className="text-sm text-muted-foreground">jobs@youramazonguy.com</div>
+                      <div className="text-sm text-muted-foreground">jobs@myamazonpartners.com</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -70,7 +70,7 @@ const ContactPage = () => {
                       <div className="font-semibold text-foreground text-sm flex items-center gap-1.5">
                         <BookOpen className="h-3.5 w-3.5" /> Amazon courses
                       </div>
-                      <div className="text-sm text-muted-foreground">courses@youramazonguy.com</div>
+                      <div className="text-sm text-muted-foreground">courses@myamazonpartners.com</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -79,7 +79,7 @@ const ContactPage = () => {
                       <div className="font-semibold text-foreground text-sm flex items-center gap-1.5">
                         <Headphones className="h-3.5 w-3.5" /> Coaching calls
                       </div>
-                      <div className="text-sm text-muted-foreground">coaching@youramazonguy.com</div>
+                      <div className="text-sm text-muted-foreground">coaching@myamazonpartners.com</div>
                     </div>
                   </div>
                 </div>

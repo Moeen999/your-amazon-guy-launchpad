@@ -37,7 +37,7 @@ const Footer = () => (
               <div className="w-1 h-5 bg-accent rounded-sm" />
               <div className="w-1 h-5 bg-accent rounded-sm" />
             </div>
-            <span className="text-lg font-heading font-bold text-foreground ml-1">Your Amazon Guy</span>
+            <span className="text-lg font-heading font-bold text-foreground ml-1">My Amazon Partners</span>
           </div>
           <div className="flex gap-3 mb-4">
             <a href="#" className="w-8 h-8 rounded-full bg-foreground flex items-center justify-center text-primary-foreground hover:opacity-80 transition-opacity">
@@ -50,7 +50,7 @@ const Footer = () => (
           <div className="space-y-2 text-sm text-muted-foreground">
             <div className="flex items-center gap-2"><MapPin size={14} /> Atlanta, GA</div>
             <div className="flex items-center gap-2"><Phone size={14} /> +1 470-623-1951</div>
-            <div className="flex items-center gap-2"><Mail size={14} /> sales@youramazonguy.com</div>
+            <div className="flex items-center gap-2"><Mail size={14} /> sales@myamazonpartners.com</div>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ const Footer = () => (
       </div>
 
       <div className="mt-10 pt-6 border-t border-border text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} youramazonguy. All rights reserved.
+        © {new Date().getFullYear()} My Amazon Partners. All rights reserved.
       </div>
     </div>
   </footer>

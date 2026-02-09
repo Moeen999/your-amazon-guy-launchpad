@@ -32,7 +32,7 @@ const Navbar = () => {
               <div className="w-1 h-6 bg-accent rounded-sm" />
             </div>
             <span className="text-xl font-heading font-bold text-foreground ml-1">
-              Your Amazon Guy
+              My Amazon Partners
             </span>
           </Link>
 
