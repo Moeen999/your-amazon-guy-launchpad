@@ -9,12 +9,9 @@ const FeatureHighlightCard = ({
 }: FeatureHighlightCardProps) => {
   return (
     <div className="relative bg-white border border-border rounded-tr-xl p-3 pl-8">
-      {/* Yellow left bar */}
       <span className="absolute left-0 top-0 h-full w-2.5 bg-yellow-400 " />
 
-      <h3 className="text-base font-bold text-foreground mb-2">
-        {title}
-      </h3>
+      <h3 className="text-base font-bold text-foreground mb-2">{title}</h3>
 
       <p className="text-sm text-muted-foreground leading-relaxed">
         {description}

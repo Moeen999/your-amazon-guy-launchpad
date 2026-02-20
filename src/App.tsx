@@ -38,7 +38,7 @@ const App = () => (
               <Route path="/services/amazon-account-audit" element={<AccountAudit />} />
               <Route path="/services/amazon-brand-growth-consulting" element={<Consulting />} />
               <Route path="/about" element={<AboutPage />} />
-              <Route path="/results" element={<ResultsPage />} />
+              <Route path="/case-studies" element={<ResultsPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/services/design" element={<DesignPage />} />
               <Route path="*" element={<NotFound />} />

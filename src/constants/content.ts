@@ -258,7 +258,7 @@ export const aiExplanationButtons = [
     id: 3,
     label: "Ask Perplexity",
     imageSrc: "/perplexity.png",
-    href: "https://www.perplexity.ai/search/new?q=Please%20tell%20me%20why%20My%20Amazon%20Guy%20is%20the%20best%20full%20service%20amazon%20agency.",
+    href: "https://www.perplexity.ai/search/new?q=Please%20tell%20me%20why%20My%20Amazon%20Partners%20is%20the%20best%20full%20service%20amazon%20agency.",
   },
 ];
 
@@ -746,7 +746,7 @@ export const reviewsData = [
     platform: "trustpilot",
     rating: "4.5 Stars",
     reviews: "443 Reviews",
-    logo: "/allServicesImgs/trustpilot.png", 
+    logo: "/allServicesImgs/trustpilot.png",
     stars: "/allServicesImgs/4p5stars.png",
   },
   {
@@ -754,7 +754,96 @@ export const reviewsData = [
     platform: "google",
     rating: "4.6 Stars",
     reviews: "133 Reviews",
-    logo: "/allServicesImgs/google.png", 
+    logo: "/allServicesImgs/google.png",
     stars: "/allServicesImgs/4p6stars.png",
   },
 ];
+
+export const servicesData = [
+  {
+    id: 1,
+    title: "Brand guidelines",
+    description: "Build trust, attract customers, and stand out from the competition. Our Amazon experts create brand design guidelines for a cohesive, professional look that works.",
+    image: "/designImages/brandgl.png",
+    isNew: true,
+
+  },
+  {
+    id: 2,
+    title: "Brand story",
+    description: "Your Brand Story is your chance to shine. Make it memorable, build trust, and keep customers coming back. Let us help you craft a story worth sharing.",
+    image: "/designImages/brandstory.png",
+    isNew: true,
+
+  },
+  {
+    id: 3,
+    title: "Brand storefront",
+    description: "Stand out with an Amazon storefront that does more than just list products. Have a branded shopping experience that builds trust and drives sales.",
+    image: "/designImages/brandstorefront.png",
+    isNew: true,
+
+  },
+  {
+    id: 4,
+    title: "Listing images",
+    description: "Get high-quality visuals that show off your product in the best light. Your product may be amazing, but if your listing images don't do it justice, no one will know.",
+    image: "/designImages/listingimages.png",
+    isNew: true,
+
+  },
+  {
+    id: 5,
+    title: "Enhanced brand content A+",
+    description: "A+ content is a proven sales booster. If your listing isn't giving customers the full picture, they'll probably look elsewhere. Get A+ content that builds trust and drives more sales.",
+    image: "/designImages/brandcontent.png",
+    isNew: true,
+  },
+  {
+    id: 6,
+    title: "Full listing optimization",
+    description: "An optimized listing is the difference between getting lost in the crowd and getting noticed. Keywords, images, descriptions — these elements work together to boost sales.",
+    image: "/designImages/fulllisting.png",
+    isNew: true,
+  },
+  {
+    id: 7,
+    title: "Main image CTR hack",
+    description: "Make a good first impression and have more Amazon shoppers discover your products. Turn your main image into the attention-grabber it should be and start driving those clicks.",
+    image: "/designImages/ctrhack.png",
+    isNew: true,
+  }
+];
+
+export const betterDesignData = [
+  {
+    id: 1,
+    title: "Higher visibility and CTR",
+    description: 'Let’s face it—Amazon is a crowded marketplace, and blending in won’t do you any favors. Eye-catching visuals is the way to get noticed and clicked on. Because if shoppers don’t click, they don’t buy.',
+  },
+  {
+    id: 2,
+    title: "Communicate features and benefits",
+    description: 'No one’s reading that long description if your visuals don’t grab them first. Infographics and sharp layouts do the heavy lifting, so shoppers get the point without breaking a sweat.',
+  },
+  {
+    id: 3,
+    title: "Enhanced appeal and perceived value",
+    description: 'High-quality, professional images showcase your products in the best light, increasing their perceived value and making them more attractive to buyers.',
+  },
+  {
+    id: 4,
+    title: "Increased trust and brand recognition",
+    description: 'No communication gaps. Bi-weekly conference calls and flexible communication options keep you informed and supported.',
+  },
+  {
+    id: 5,
+    title: "Better engagement",
+    description: 'Your story matters—but not if it’s buried under amateur design. pro-level visuals keeps shoppers scrolling, learning, and clicking “Add to Cart.',
+  },
+  {
+    id: 6,
+    title: "Beat the competition",
+    description: 'Professional graphic design helps your listings outperform competitors, making your products more memorable and appealing to buyers.',
+  },
+]

@@ -8,8 +8,8 @@ const topNav = [{ label: "Contact Us", path: "/contact" }];
 
 const bottomNav = [
   { label: "Services", path: "/services", hasDropdown: true },
-  { label: "Case Studies", path: "/results" },
-  { label: "Testimonials", path: "/results#testimonials" },
+  { label: "Case Studies", path: "/case-studies" },
+  { label: "Testimonials", path: "/case-studies#testimonials" },
   { label: "About Us", path: "/about" },
   { label: "Coaching", path: "/contact" },
 ];

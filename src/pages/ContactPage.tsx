@@ -6,6 +6,7 @@ import { Mail, Phone, Send, Briefcase, BookOpen, Headphones } from "lucide-react
 import { Link } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
 import CTASection from "@/components/CTASection";
+import { FaAddressBook } from "react-icons/fa6";
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -38,7 +39,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <span className="text-sm text-muted-foreground">Phone: </span>
-                    <span className="font-semibold text-foreground">+1 470-623-1951</span>
+                    <span className="font-semibold text-foreground">00447824760953 </span>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -48,6 +49,15 @@ const ContactPage = () => {
                   <div>
                     <span className="text-sm text-muted-foreground">Email: </span>
                     <span className="font-semibold text-foreground">sales@myamazonpartners.com</span>
+                  </div>
+                </div>
+                 <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center flex-shrink-0">
+                    <FaAddressBook className="h-5 w-5 text-accent-foreground" />
+                  </div>
+                  <div>
+                    <span className="text-sm text-muted-foreground">Address: </span>
+                    <span className="font-semibold text-foreground">London United Kingdom</span>
                   </div>
                 </div>
               </div>
