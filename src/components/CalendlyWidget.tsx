@@ -8,7 +8,7 @@ const CalendlyWidget = () => {
    useEffect(() => {
     const init = () => {
       window.Calendly.initInlineWidget({
-        url: "https://calendly.com/mooenmalik374/new-meeting",
+        url: import.meta.env.VITE_CALENDLY_ACCESS_URL,
         parentElement: document.getElementById("calendly-root"),
       });
     };
