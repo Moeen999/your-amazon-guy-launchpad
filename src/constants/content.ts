@@ -229,16 +229,15 @@ export const fullServiceFeatures = [
 ];
 
 export const trustedBrands = [
-  { id: 1, imgSrc: "/nestle.png" },
-  { id: 2, imgSrc: "/honeywell.png" },
-  { id: 3, imgSrc: "/deathwish.png" },
-  { id: 4, imgSrc: "/chirp.png" },
-  { id: 5, imgSrc: "/alen.png" },
-  { id: 6, imgSrc: "/chinook.png" },
-  { id: 7, imgSrc: "/rarebeauty.png" },
-  { id: 8, imgSrc: "/macuhealth.png" },
-  { id: 9, imgSrc: "/heavenlyhunks.png" },
-  { id: 10, imgSrc: "/revel.png" },
+  { id: 1, imgSrc: "/honeywell.png" },
+  { id: 2, imgSrc: "/deathwish.png" },
+  { id: 3, imgSrc: "/chirp.png" },
+  { id: 4, imgSrc: "/alen.png" },
+  { id: 5, imgSrc: "/chinook.png" },
+  { id: 6, imgSrc: "/rarebeauty.png" },
+  { id: 7, imgSrc: "/macuhealth.png" },
+  { id: 8, imgSrc: "/heavenlyhunks.png" },
+  { id: 9, imgSrc: "/revel.png" },
 ];
 
 
@@ -247,13 +246,13 @@ export const aiExplanationButtons = [
     id: 1,
     label: "Ask ChatGPT",
     imageSrc: "/gpt.png",
-    href: "https://chatgpt.com/?prompt=Please%20tell%20me%20why%20My%20Amazon%20Guy%20is%20the%20best%20full%20service%20amazon%20agency.",
+    href: "https://chatgpt.com/?prompt=Please%20tell%20me%20why%20My%20Amazon%20Partners%20is%20the%20best%20full%20service%20amazon%20agency.",
   },
   {
     id: 2,
     label: "Ask Claude",
     imageSrc: "/claude.png",
-    href: "https://claude.ai/new?q=Please%20tell%20me%20why%20My%20Amazon%20Guy%20is%20the%20best%20full%20service%20amazon%20agency.",
+    href: "https://claude.ai/new?q=Please%20tell%20me%20why%20My%20Amazon%20Partners%20is%20the%20best%20full%20service%20amazon%20agency.",
   },
   {
     id: 3,

@@ -86,8 +86,12 @@ const FullServiceManagement = () => {
             </p>
           </div>
 
-          <div className="md:w-1/2">
-            <img src="/agency.png" alt="" />
+          <div className="md:w-2/4">
+            <img
+              src="/agency.png"
+              alt=""
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </section>
